@@ -1,39 +1,57 @@
 # 👋 Hi there — I'm **u+20114**
 
-AI enthusiast and developer-in-training, exploring how **technology can communicate meaning instead of just data**.  
-Currently working on the [**Semantic Compression Project**](https://github.com/u20114/semantic-compression),  
-an experimental system that sends *meaning* rather than raw media — reducing data usage while expanding creativity.
+AI enthusiast and developer-in-training exploring how  
+**information can be transmitted as meaning instead of raw data**.
+
+Currently building **[Mim](https://github.com/lube8163-lab/mim-ios)** —  
+an experimental iOS social app where images are shared as **semantic representations** and reconstructed with on-device AI.
 
 ---
 
 ## 🧠 About / 自己紹介
-- 🧩 Still learning to code — I’m a **beginner** building everything with the help of **AI assistants (ChatGPT, etc.)**  
-　→ コーディング初心者。AI（ChatGPTなど）と協働しながら開発中です。  
-- 💬 Focused on **semantic communication**, **edge AI**, and **creative infrastructure design**  
-　→ セマンティック通信・エッジAI・創造的インフラ設計に関心があります。  
-- 🌏 Based in Japan — interested in **mountains, engineering, and philosophy**  
-　→ 日本在住。山・工学・哲学が好きです。
+
+- 🧩 Beginner developer building projects **together with AI assistants** (ChatGPT, etc.)  
+  → コーディング初心者。AI（ChatGPTなど）と協働しながら開発しています。
+
+- 🧠 Interested in **semantic communication, edge AI, and creative infrastructure**  
+  → セマンティック通信・エッジAI・創造的インフラ設計に関心があります。
+
+- 🌏 Based in Japan — I like **mountains, engineering, and philosophy**  
+  → 日本在住。山・工学・哲学が好きです。
 
 ---
 
-## 🚀 Current Project / 現在のプロジェクト
-- [**Semantic Compression Project**](https://github.com/u20114/semantic-compression)  
-  *AI-assisted SNS demo that transmits images as semantic tokens instead of pixels.*  
-  画像を「意味」としてAIで圧縮・転送するSNSデモ。  
-  Cloudflare Workers と OpenAI API を使用しています。
+## 🚀 Current Project
+
+### **Mim — Semantic Image Communication**
+
+📱 iOS experimental social app  
+Images are not transmitted as pixels but as **semantic prompts + lightweight guidance data**,  
+and reconstructed locally using **on-device generative AI**.
+
+**Main repository**
+
+👉 https://github.com/lube8163-lab/mim-ios
+
+**Concept**
+Image → semantic embedding → prompt → lightweight payload
+→ on-device AI reconstruction
+
+Goal: explore **meaning-level communication** that may reduce data transfer while enabling new creative workflows.
 
 ---
 
-## 📜 Motto / モットー
-> “Learning, building, and having fun with AI.”  
-> 「AIと一緒に、学びながら作るのが楽しい。」
+## 🧩 Tech Stack
+
+`Swift` · `SwiftUI` · `CoreML` · `Stable Diffusion`  
+`SigLIP2` · `Cloudflare Workers` · `D1` · `R2`
 
 ---
 
-## 🧩 Tech Stack / 使用技術
-`HTML` · `JavaScript` · `Cloudflare Workers` · `OpenAI API` · `GitHub Pages`
+## 📜 Motto
+
+> *Learning in public — building things together with AI.*
 
 ---
 
-*(Built and documented in collaboration with AI — learning in public, one commit at a time.)*  
-（AIとともに学びながら、ひとつずつ積み上げています。）
+*(Most of my projects are built collaboratively with AI assistants while lear
